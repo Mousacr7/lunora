@@ -48,12 +48,11 @@ npm start
 👨‍💻 Author
 Musa Mlam Al Brnawi
 Frontend Developer — React, Firebase, Web Design
-📫 https://www.fiverr.com/users/musa_abubakar
-
+📫 https://www.fiverr.com/s/yvaRpbb
 🔖 Note for Clients
 This project demonstrates my ability to build full e-commerce systems with modern design, custom logic, and a clean user experience.
 
-Available for freelance work on [!Fiverr](https://www.fiverr.com/users/musa_abubakar)/ [!Upwork.](https://www.upwork.com/freelancers/~01fc5fdd695c924d11)
+Available for freelance work on [!Fiverr](https://www.fiverr.com/s/yvaRpbb)/ [!Upwork.](https://www.upwork.com/freelancers/~01fc5fdd695c924d11)
 
 📃 License
 Free to use for educational or portfolio purposes.
