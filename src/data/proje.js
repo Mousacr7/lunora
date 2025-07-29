@@ -1,77 +1,25 @@
  // Shoes
- const wxtr = [
+ export const products = [
+   
+   // Clothes
+  {
+    id: 15,
+    name: "James bound Suit",
+    price: 20,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Clothes",
+    description: "alegnt dress in italy style",
+    color:["white","black","red","gray","green","blue"],
+    size:["XS","S","M","L","XL"],
+    featured:true,
+    rating: 3.8
+  },
   {
     id: 16,
-    name: "Nike Air Force 1",
-    price: 110,
-    image: "/images/air-force-1.png",
-    category: "Fashion",
-    subcategory: "Shoes",
-    description: "Classic white sneakers with premium comfort.",
-    color:["white","black","red","blue","brown"],
-    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
-    featured:false,
-    rating: 4.4
-  },
-  {
-    id: 17,
-    name: "Adidas Ultraboost",
-    price: 180,
-    image: "/images/ultraboost.png",
-    category: "Fashion",
-    subcategory: "Shoes",
-    description: "High-performance running shoes with style.",
-    color:["white","black","red","blue","brown"],
-    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
-    featured:false,
-    rating: 4.5
-  },
-  {
-    id: 18,
-    name: "Converse Chuck 70",
-    price: 95,
-    image: "/images/converse.png",
-    category: "Fashion",
-    subcategory: "Shoes",
-    description: "Vintage-inspired everyday sneakers.",
-    color:["white","black","red","blue","brown"],
-    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
-    featured:false,
-    rating: 4.1
-  },
-  {
-    id: 19,
-    name: "Vans Old Skool",
-    price: 70,
-    image: "/images/vans.png",
-    category: "Fashion",
-    subcategory: "Shoes",
-    description: "Skate-style streetwear essential.",
-    color:["white","black","red","blue","brown"],
-    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
-    featured:false,
-    rating: 4.0
-  },
-  {
-    id: 20,
-    name: "New Balance 550",
-    price: 120,
-    image: "/images/nb550.png",
-    category: "Fashion",
-    subcategory: "Shoes",
-    description: "Retro basketball sneakers made modern.",
-    color:["white","black","red","blue","brown"],
-    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
-    featured:false,
-    rating: 4.2
-  },
-
-  // Clothes
-  {
-    id: 21,
     name: "Uniqlo Oversized Tee",
     price: 20,
-    image: "/images/uniqlo-tee.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Clothes",
     description: "Soft cotton tee with a relaxed fit.",
@@ -81,10 +29,10 @@
     rating: 3.8
   },
   {
-    id: 22,
+    id: 17,
     name: "Zara Slim Fit Jeans",
     price: 45,
-    image: "/images/zara-jeans.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Clothes",
     description: "Classic denim with modern styling.",
@@ -94,10 +42,10 @@
     rating: 4.1
   },
   {
-    id: 23,
+    id: 18,
     name: "H&M Hoodie",
     price: 30,
-    image: "/images/hm-hoodie.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Clothes",
     description: "Casual hoodie with a minimalist look.",
@@ -107,10 +55,10 @@
     rating: 3.9
   },
   {
-    id: 24,
+    id: 19,
     name: "Levi's Trucker Jacket",
     price: 89,
-    image: "/images/levis-jacket.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Clothes",
     description: "Iconic denim jacket for all seasons.",
@@ -120,10 +68,10 @@
     rating: 4.2
   },
   {
-    id: 25,
+    id: 20,
     name: "Nike Sportswear Joggers",
     price: 55,
-    image: "/images/nike-joggers.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Clothes",
     description: "Comfortable and stylish for everyday wear.",
@@ -132,13 +80,78 @@
     featured:false,
     rating: 4.0
   },
-
+  
+  {
+    id: 21,
+    name: "Nike Air Force 1",
+    price: 110,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Shoes",
+    description: "Classic white sneakers with premium comfort.",
+    color:["white","black","red","blue","brown"],
+    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
+    featured:false,
+    rating: 4.4
+  },
+  {
+    id: 22,
+    name: "Adidas Ultraboost",
+    price: 180,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Shoes",
+    description: "High-performance running shoes with style.",
+    color:["white","black","red","blue","brown"],
+    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
+    featured:false,
+    rating: 4.5
+  },
+  {
+    id: 23,
+    name: "Converse Chuck 70",
+    price: 95,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Shoes",
+    description: "Vintage-inspired everyday sneakers.",
+    color:["white","black","red","blue","brown"],
+    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
+    featured:false,
+    rating: 4.1
+  },
+  {
+    id: 24,
+    name: "Vans Old Skool",
+    price: 70,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Shoes",
+    description: "Skate-style streetwear essential.",
+    color:["white","black","red","blue","brown"],
+    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
+    featured:false,
+    rating: 4.0
+  },
+  {
+    id: 25,
+    name: "New Balance 550",
+    price: 120,
+    image:"./asset/tech/15.jpg" ,
+    category: "Fashion",
+    subcategory: "Shoes",
+    description: "Retro basketball sneakers made modern.",
+    color:["white","black","red","blue","brown"],
+    size:["39Eu","40Eu","41Eu","42Eu","43Eu"],
+    featured:false,
+    rating: 4.2
+  },
   // Accessories
   {
     id: 26,
     name: "Ray-Ban Aviators",
     price: 150,
-    image: "/images/rayban.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Accessories",
     description: "Iconic sunglasses with timeless design.",
@@ -150,7 +163,7 @@
     id: 27,
     name: "Casio Digital Watch",
     price: 25,
-    image: "/images/casio.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Accessories",
     description: "Classic retro timepiece with durable build.",
@@ -162,7 +175,7 @@
     id: 28,
     name: "Herschel Backpack",
     price: 65,
-    image: "/images/herschel.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Accessories",
     description: "Stylish backpack for school or travel.",
@@ -174,7 +187,7 @@
     id: 29,
     name: "Apple Watch Band – Leather",
     price: 49,
-    image: "/images/apple-band.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Accessories",
     description: "Premium leather band for Apple Watch.",
@@ -186,7 +199,7 @@
     id: 30,
     name: "Tommy Hilfiger Wallet",
     price: 40,
-    image: "/images/tommy-wallet.png",
+    image:"./asset/tech/15.jpg" ,
     category: "Fashion",
     subcategory: "Accessories",
     description: "Elegant bifold wallet with logo detail.",
@@ -194,190 +207,5 @@
     featured:false,
     rating: 4.0
   },
-
-  // Kitchen
-  {
-    id: 31,
-    name: "Ninja Air Fryer",
-    price: 129,
-    image: "/images/airfryer.png",
-    category: "Home",
-    subcategory: "Kitchen",
-    description: "Healthy and quick cooking solution.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.2
-  },
-  {
-    id: 32,
-    name: "NutriBullet Blender",
-    price: 89,
-    image: "/images/nutribullet.png",
-    category: "Home",
-    subcategory: "Kitchen",
-    description: "Smoothie maker with powerful motor.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.0
-  },
-  {
-    id: 33,
-    name: "Instant Pot Duo",
-    price: 99,
-    image: "/images/instantpot.png",
-    category: "Home",
-    subcategory: "Kitchen",
-    description: "7-in-1 pressure cooker for fast meals.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.3
-  },
-  {
-    id: 34,
-    name: "Tefal Non-stick Pan Set",
-    price: 59,
-    image: "/images/tefal.png",
-    category: "Home",
-    subcategory: "Kitchen",
-    description: "Durable non-stick cookware.",
-    color:["white","black"],
-    featured:false,
-    rating: 3.9
-  },
-  {
-    id: 35,
-    name: "Keurig Coffee Machine",
-    price: 139,
-    image: "/images/keurig.png",
-    category: "Home",
-    subcategory: "Kitchen",
-    description: "Single-serve brewer with modern design.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.1
-  },
-
-  // Decor
-  {
-    id: 36,
-    name: "Philips Hue Starter Kit",
-    price: 179,
-    image: "/images/hue.png",
-    category: "Home",
-    subcategory: "Decor",
-    description: "Smart lighting system with color control.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.5
-  },
-  {
-    id: 37,
-    name: "IKEA MALM Bed Frame",
-    price: 199,
-    image: "/images/ikea-bed.png",
-    category: "Home",
-    subcategory: "Decor",
-    description: "Simple and sturdy bed frame.",
-    color:["white","black","brown"],
-    featured:false,
-    rating: 4.3
-  },
-  {
-    id: 38,
-    name: "Dyson Pure Cool Fan",
-    price: 299,
-    image: "/images/dyson-fan.png",
-    category: "Home",
-    subcategory: "Decor",
-    description: "Air purifier and fan in one sleek design.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.6
-  },
-  {
-    id: 39,
-    name: "West Elm Coffee Table",
-    price: 399,
-    image: "/images/westelm-coffee.png",
-    category: "Home",
-    subcategory: "Decor",
-    description: "Modern wooden coffee table.",
-    color:["brown","black"],
-    featured:false,
-    rating: 4.2
-  },
-  {
-    id: 40,
-    name: "Lutron Caséta Dimmer",
-    price: 59,
-    image: "/images/lutron.png",
-    category: "Home",
-    subcategory: "Decor",
-    description: "Smart dimmer switch for lighting control.",
-    color:["white","black"],
-    featured:false,
-    rating: 4.1
-  },
-
-  // Fitness
-  {
-  id: 41,
-  name: "IKEA LACK Coffee Table",
-  price: 49,
-  image: "/images/lack-table.png",
-  category: "Home",
-  subcategory: "Furniture",
-  description: "Simple table for modern spaces.",
-  color:["white","black","gray","brown"],
-  featured:false,
-  rating:4.7
-},
-{
-  id: 42,
-  name: "Office Ergonomic Chair",
-  price: 179,
-  image: "/images/ergonomic-chair.png",
-  category: "Home",
-  subcategory: "Furniture",
-  description: "Back support and comfort for long work hours.",
-  color:["white","black","gray","brown"],
-  featured:false,
-  rating:4.1
-},
-{
-  id: 43,
-  name: "Bookshelf – 5 Tier",
-  price: 89,
-  image: "/images/bookshelf.png",
-  category: "Home",
-  subcategory: "Furniture",
-  description: "Modern vertical bookshelf.",
-  color:["white","black","gray","brown"],
-  featured:false,
-  rating: 4.3
-},
-{
-  id: 44,
-  name: "Futon Sofa Bed",
-  price: 299,
-  image: "/images/futon.png",
-  category: "Home",
-  subcategory: "Furniture",
-  description: "Space-saving dual-use sofa bed.",
-  color:["white","black","gray","brown"],
-  featured:false,
-  rating:4.0
-},
-{
-  id: 45,
-  name: "Study Desk – Minimalist",
-  price: 139,
-  image: "/images/study-desk.png",
-  category: "Home",
-  subcategory: "Furniture",
-  description: "Compact workspace with storage.",
-  color:["white","black","gray","brown"],
-  featured:false,
-  rating:4.5
-
-}]
+ ]
+  

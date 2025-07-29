@@ -1,3 +1,4 @@
+@import "../index.css";
 /* === Controls for Mobile === */
 .mobile-controls {
   display: none;
@@ -19,7 +20,7 @@
 
 .mobile-controls button:hover {
  background-color: transparent;
-  color: #1d4ed8;
+  color: var(--color-primary);
 }
 
 /* === Filter Container === */
@@ -53,7 +54,7 @@
 }
 
 .filter-btn,.sort-list li {
-  background-color: #f3f4f6;
+  background-color: #f3f6f4;
   color: #111827;
   border: 1px solid #d1d5db;
   padding: 0.5rem 1rem;
@@ -65,12 +66,12 @@
 }
 
 .filter-btn:hover , .sort-list li:hover {
-  background-color: #e0e7ff;
-  color: #1d4ed8;
+  background-color: #e4f8e6;
+  color: var(--color-primary);
 }
 
 .active-btn {
-  background: #2563eb;
+  background: var(--color-primary);
   color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }

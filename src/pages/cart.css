@@ -1,5 +1,6 @@
+@import "../index.css";
 .cart-page {
-    background-color: white;
+    background-color: var(--color-white);
     height: 100vh;
     
 }
@@ -25,7 +26,7 @@
 .cart {
   display: flex;
   gap: 1rem;
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   padding: 1rem;
@@ -42,7 +43,7 @@
 input[type="checkbox"].custom-checkbox {
   appearance: none;
   -webkit-appearance: none;
-  background-color: white;
+  background-color: var(--color-white);
   margin: 0;
   font: inherit;
   width: 18px;
@@ -61,7 +62,7 @@ input[type="checkbox"].custom-checkbox::before {
   height: 12px;
   transform: scale(0);
   transition: transform 0.2s ease-in-out;
-  box-shadow: inset 1em 1em #007bff; /* check color */
+  box-shadow: inset 1em 1em var(--color-primary); /* check color */
   border-radius: 50%;
 }
 
@@ -70,7 +71,7 @@ input[type="checkbox"].custom-checkbox:checked::before {
 }
 
 input[type="checkbox"].custom-checkbox:focus {
-  outline: 2px solid #007bff;
+  outline: 2px solid var(--color-primary-light);
   outline-offset: 2px;
 }
 

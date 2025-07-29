@@ -1,3 +1,4 @@
+@import "../index.css";
 /* Overlay Panel */
 .options-panel {
   position: fixed;
@@ -22,12 +23,11 @@
   gap: 0.5rem;
   position: relative;
   animation: slideUp 0.3s ease-out;
-  background-color: #ffffff;
 }
 
 .box {
   padding:2rem ;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   box-shadow: 0 10px 40px rgba(230, 202, 202, 0.15);
   position: fixed;
   bottom: 0;
@@ -61,7 +61,7 @@
 /* Price */
 .option-box span {
   font-size: 1.1rem;
-  color: #16a34a;
+  color: var(--color-success);
   font-weight: 700;
   text-align: center;
   padding: 0.5rem;
@@ -86,7 +86,7 @@
 
 .option p {
   font-weight: 700;
-  color: #374151;
+  color: var(--footer-text);
 }
 
 /* Buttons Wrapper */
@@ -99,7 +99,7 @@
 /* Buttons for Choices */
 .option-btn button {
   background-color: #f3f4f6;
-  color: #2563eb;
+  color: var(--color-primary);
   border: 2px solid #9ca3af;
   border-radius: 12px;
   width: auto;
@@ -125,7 +125,7 @@
   border-radius: 50%;
   min-width: 32px;
   height: 32px;
-  border: 1px solid #d1d5db;
+  border: 1px solid var(--bg-primary-nav-hover);
 }
 
 /* Fix white color visibility */
@@ -135,7 +135,7 @@
 
 /* Selected State */
 .option-btn button.selected {
-  outline: 2px solid #2563eb;
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
   box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
 }
@@ -178,8 +178,8 @@
   padding: 0.75rem 1.5rem;
   border-radius: 999px;
   font-size: 1rem;
-  background-color:#2563eb;
-  color: #ffffff;
+  background-color:var(--color-primary);
+  color: var(--color-white);
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -191,7 +191,7 @@
 }
 
 .add:hover {
-  background-color: #1e40af;
+  background-color: var(--color-primary-dark);
 }
 
 .actions {
@@ -219,7 +219,7 @@
   background: transparent;
   border: none;
   font-size: 1.5rem;
-  color: #6b7280;
+  color: var(--bg-primary-nav-hover);
   cursor: pointer;
   transition: color 0.3s ease;
   display: flex;

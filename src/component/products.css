@@ -1,3 +1,4 @@
+@import "../index.css";
 /* === Container === */
 .container {
   max-width: 1200px;
@@ -8,7 +9,7 @@
 /* === Section Styling === */
 section {
   padding: 3rem 0;
-  background-color: #ffffff;
+  background-color: var(--color-white);
   margin-top: 2rem;
 }
 
@@ -30,12 +31,12 @@ section {
 .see-all a {
   font-weight: 600;
   font-size: 0.9rem;
-  color: #6b7280;
+  color: var(--bg-primary-nav-hover);
   transition: color 0.2s;
 }
 
 .see-all a:hover {
-  color: #1e40af;
+  color: var(--color-primary-dark);
 }
 
 /* === Product Grid === */
@@ -51,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 1rem;
   border-radius: 0.75rem;
   border: 1px solid #e5e7eb;
@@ -97,15 +98,15 @@ section {
 }
 
 .product-detail span {
-  color: #16a34a;
+  color: var(--color-secondry);
   font-weight: 700;
   font-size: 1.1rem;
 }
 
 /* === Add to Cart Button === */
 .add-to-cart, .load-3 {
-  background-color: #2563eb;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.5rem;
@@ -121,13 +122,13 @@ section {
 }
 
 .add-to-cart:hover {
-  background-color: #1e40af;
+  background-color: var(--color-primary-dark);
 }
 
 /* subcategory */
 .subcategory {
   padding: 2rem 1rem;
-  background-color: #ffffff
+  background-color: var(--color-white)
 }
 
 .subcategory-list {
@@ -140,7 +141,7 @@ section {
 }
 
 .subcategory-list li {
-  background-color: #fff;
+  background-color: var(--color-white);
   border-radius: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   display: flex;
@@ -158,7 +159,7 @@ section {
 
 .subcategory-list li:hover {
   transform: translateY(-4px);
-  background-color: #eaf2ff;
+  background-color: var(--bg-primary-nav-hover);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -184,7 +185,7 @@ section {
 .subcategory-list li span {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #1f2937;
+  color: var(--color-black);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

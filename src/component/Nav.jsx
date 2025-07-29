@@ -111,7 +111,7 @@ const Nav = ({image}) => {
             :
             <img src="./logo.png" alt="Logo" />
             }
-            <h1 className="brand">rimeMart</h1>
+            <h1 className="brand">unora</h1>
           </div>
        
 

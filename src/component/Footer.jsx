@@ -13,7 +13,7 @@ const Footer = () => {
         {/* Logo and Title */}
         <div className="footer-header">
           <img src="/logo.png" alt="Shop Logo"/>
-          <h1>rimeMart</h1>
+          <h1>unora</h1>
         </div>
 
         {/* Social Icons */}

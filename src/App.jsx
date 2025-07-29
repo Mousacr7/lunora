@@ -22,7 +22,6 @@ const App = () => {
     
   }, [pathname]);
   return (
-    
     <Routes>
       <Route path="/home" element={<Loader />} />
       <Route path="/" element={<Home />} />

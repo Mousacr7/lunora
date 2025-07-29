@@ -1,3 +1,4 @@
+@import "../index.css";
 .review {
   display: flex;
   flex-direction: column;
@@ -7,7 +8,7 @@
 }
 
 .review-card {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   padding: 2rem;
   margin-top: 1rem;
   width: 100%;
@@ -37,11 +38,11 @@
   height: 64px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #2563eb;
+  border: 2px solid var(--color-primary);
 }
 
 .client-name h3 {
-  color: #1f2937;
+  color: var(--color-black);
   font-weight: 600;
 }
 
@@ -92,9 +93,9 @@
 }
 
 .carousel-buttons button {
-  background-color: #2563eb;
+  background-color: var(--color-primary);
   border: none;
-  color: white;
+  color: var(--color-white);
   padding: 0.5rem 1.25rem;
   font-size: 1.1rem;
   border-radius: 10px;
@@ -103,7 +104,7 @@
 }
 
 .carousel-buttons button:hover {
-  background-color: #1e40af;
+  background-color: var(--color-primary-dark);
 }
 
 /* Responsive */
