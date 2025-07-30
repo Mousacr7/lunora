@@ -1,7 +1,7 @@
 # 👗 Lunora — Fashion E-commerce Store
 
 ## 🌐 **Live Demo**
-[ 👉 Click Here to View the Live Site 👈](https://mousacr7.github.io/coffee-shop-ecommerce/)
+[ 👉 Click Here to View the Live Site 👈](https://lunoraa.netlify.app/)
 
 ---
 
