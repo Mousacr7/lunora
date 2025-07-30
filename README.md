@@ -46,8 +46,21 @@ The concept behind Lunora is clean elegance — a white + beige theme inspired b
 
 ## 🚀 How to Run Locally
 
-```bash
 git clone https://github.com/YOUR_USERNAME/lunora.git
 cd lunora
 npm install
 npm start
+
+👨‍🎨 Author
+Musa Mlam Al Brnawi
+Frontend Developer — React | Firebase | UI/UX
+
+📫 [Fiverr Profile](https://www.fiverr.com/s/yvaRpbb)
+🌐 [Upwork Profile](https://www.upwork.com/freelancers/~01fc5fdd695c924d11)
+
+
+📌 Client Note
+This project showcases a high-end design approach for modern e-commerce. It’s ideal for boutiques, clothing brands, or any business seeking a polished online presence.
+
+📄 License
+This project is free to use for learning, portfolio, and non-commercial purposes.
